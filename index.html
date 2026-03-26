@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إهداء خاص للعروسة إسراء</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Noto+Naskh+Arabic:wght@400;600;700&family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div class="bg-canvas"></div>
+
+<audio id="audio" loop>
+    <source src="song.m4a" type="audio/mpeg">
+</audio>
+
+<div id="overlay">
+    <div class="overlay-ornament">🌸</div>
+    <p class="overlay-title">إهداء خاص لـ أجمل عروسة</p>
+    <p class="overlay-subtitle">✦ &nbsp; إسراء &nbsp; ✦</p>
+    <button class="open-btn" onclick="startExperience()">
+        <div class="open-btn-inner">
+            افتحي هديتك &nbsp; 🎁
+        </div>
+    </button>
+</div>
+
+<div id="card-wrapper" style="display:none; min-height:100vh; width:100%; padding:40px 16px 60px; justify-content:center; align-items:center; flex-direction:column;">
+<div class="card-scene" id="card">
+    <div class="card-mat">
+        <div class="card-body">
+            <div class="card-body-bg"></div>
+
+            <div class="top-divider" id="el-divider">
+                <div class="divider-line left"></div>
+                <div class="divider-gem"></div>
+                <span style="font-size:1rem; color: var(--gold); line-height:1;">✦</span>
+                <div class="divider-gem"></div>
+                <div class="divider-line"></div>
+            </div>
+
+            <div class="verse-wrap" id="el-verse">
+                <p class="verse-label">✦ &nbsp; من القرآن الكريم &nbsp; ✦</p>
+                <div class="verse-text">
+                    وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
+                </div>
+                <p class="verse-ref">سورة الروم – آية ٢١</p>
+            </div>
+
+            <div class="names-block" id="el-names">
+                <p class="names-label">✦ &nbsp; العروسان &nbsp; ✦</p>
+                <div class="names-row">
+                    <div class="name-pill">أحمد</div>
+                    <div class="heart-sep">💗</div>
+                    <div class="name-pill">إسراء</div>
+                </div>
+            </div>
+
+            <div class="date-block" id="el-date">
+                <p class="wedding-date">٣٠ أبريل ٢٠٢٦</p>
+                <div id="countdown-display" class="countdown-wrap"></div>
+            </div>
+
+            <div class="dua-block" id="el-dua">
+                <p class="dua-text">
+                    بارك الله لكما وبارك عليكما<br>وجمع بينكما في خير
+                </p>
+            </div>
+
+            <div class="bottom-ornament" id="el-bottom">مبارك</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="script/script.js"> 
+</script>
+
+</body>
+</html>
